@@ -1,0 +1,11 @@
+# Ignore source files in npm package
+src/
+*.test.ts
+*.spec.ts
+stress-tests.js
+node_modules/
+*.log
+coverage/
+dist/*.js
+!dist/*.min.js
+dist/*.map

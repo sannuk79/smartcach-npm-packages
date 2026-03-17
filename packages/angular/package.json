@@ -1,0 +1,49 @@
+{
+  "name": "smartcache-angular",
+  "version": "0.1.2",
+  "description": "Angular adapter for SmartCache - Lightweight caching for Angular apps",
+  "main": "./dist/index.js",
+  "module": "./dist/fesm2015/smartcache-angular.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json",
+    "build:watch": "ng-packagr -p ng-package.json -w",
+    "test": "jest"
+  },
+  "keywords": [
+    "angular",
+    "cache",
+    "smartcache",
+    "lru",
+    "ttl",
+    "smartcache-pro",
+    "smartcache-angular",
+    "smartcache-react",
+    "smartcache-vue",
+    "smartcache-svelte",
+    "smartcache-nextjs",
+    "smartcache-nuxt",
+    "smartcache-sveltekit",
+    "smartcache-angular",
+    "redis",
+    "http-cache",
+    "redis-cache"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": ">=14.0.0",
+    "@angular/core": ">=14.0.0",
+    "@angular/router": ">=14.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "@angular/router": "^16.0.0",
+    "ng-packagr": "^16.0.0",
+    "typescript": "~5.0.0"
+  }
+}
